@@ -1,0 +1,40 @@
+#player,#ai {
+	float: left;
+	border: thin solid black;
+	width: 50%;
+	height: 95vh;
+}
+
+.move {
+	width: 50%;
+}
+
+.buttonContainer {
+	padding: 5% !important;
+}
+
+.moveContainer {
+	padding-top: 15%;
+}
+
+.choices {
+	padding-top: 10%;
+}
+
+#outcome {
+	height: 5vh;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+#playerWins {
+	position: absolute;
+	top: 5px;
+	left: 20%;
+}
+
+#cpuWins {
+	position: absolute;
+	top: 5px;
+	right: 20%;
+}
