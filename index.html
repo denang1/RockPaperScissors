@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+ 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css"/>
+ 	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"/>
+	<link type="text/css" rel="stylesheet" href="css/style.css"/>
+	<title>Rock, Paper, Scissors</title>
+</head>
+<body>
+<div id="playerWins">Wins: 0</div>
+<div id="cpuWins">Wins: 0</div>
+<div id="outcome" class="center-align"></div>
+<div id="player" class="center-align">
+	<h2>Player</h2>
+	<div class="moveContainer">
+		<img src="images/rock-player.png" class="move" id="playerMove"/>
+	</div>
+	<div class="row choices">
+		<div class="col s12 m12 l4 buttonContainer">
+			<div class="btn wave-effect" onclick="move('rock')">Rock</div>
+		</div>
+		<div class="col s12 m12 l4 buttonContainer">
+			<div class="btn wave-effect" onclick="move('paper')">Paper</div>
+		</div>
+		<div class="col s12 m12 l4 buttonContainer">
+			<div class="btn wave-effect" onclick="move('scissors')">Scissors</div>
+		</div>
+	</div>
+</div>
+<div id="ai" class="center-align">
+	<h2>Computer</h2>
+	<div class="moveContainer">
+		<img src="images/rock-cpu.png" class="move" id="cpuMove"/>
+	</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
+
